@@ -1,38 +1,18 @@
 const express = require("express");
 const app = express();
-const fs = require("fs");
 const PORT = process.env.PORT || 3000;
+const menu = require("./db/costs/all-costs.json");
 
 app.get("/costs", function(req, res) {
-  fs.readFile("./db/costs/all-costs.json", null, (err, data) => {
-    if (err) {
-      res.send("file not found");
-    } else {
-      res.send(JSON.parse(data));
-    }
-  });
+  res.send(menu);
 });
 
 app.get("/costs/:id", function(req, res) {
-  fs.readFile("./db/costs/all-costs.json", null, (err, data) => {
-    if (err) {
-      res.send("file not found");
-    } else {
-      res.send(JSON.parse(data).find(i => i.id === Number(req.params.id)));
-    }
-  });
+  res.send(menu.find(i => i.id === Number(req.params.id)));
 });
 
-app.get("/category/", function(req, res) {
-  fs.readFile("./db/costs/all-costs.json", null, (err, data) => {
-    if (err) {
-      res.send("file not found");
-    } else {
-      res.send(
-        JSON.parse(data).filter(val => val.category === req.query.category)
-      );
-    }
-  });
+app.get("/category", function(req, res) {
+  res.send(menu.filter(val => val.category === req.query.category));
 });
 
 app.use(function(req, res, next) {
