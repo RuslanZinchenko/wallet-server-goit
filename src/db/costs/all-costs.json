@@ -1,0 +1,103 @@
+[
+  {
+    "id": 19112831,
+    "name": "Пицца Пепперони с томатами",
+    "description": "",
+    "price": "100",
+    "currency": "UAN",
+    "created": "21-07-2019",
+    "modified": "23-07-2019",
+    "category": "food"
+  },
+  {
+    "id": 19112832,
+    "name": "Суши",
+    "description": "",
+    "price": "80",
+    "currency": "UAN",
+    "creatorId": 1,
+    "created": "20-07-2019",
+    "modified": "20-07-2019",
+    "category": "food"
+  },
+  {
+    "id": 19112833,
+    "name": "Пицца Маргарита",
+    "description": "",
+    "price": "85",
+    "currency": "UAN",
+    "created": "22-07-2019",
+    "modified": "23-07-2019",
+    "category": "food"
+  },
+  {
+    "id": 19112834,
+    "name": "Пицца 4 сыра",
+    "description": "",
+    "price": "95",
+    "currency": "UAN",
+    "created": "24-07-2019",
+    "modified": "25-07-2019",
+    "category": "food"
+  },
+  {
+    "id": 19112835,
+    "name": "Пицца Мюнхенская",
+    "description": "",
+    "price": "99",
+    "currency": "UAN",
+    "created": "26-07-2019",
+    "modified": "27-07-2019",
+    "category": "food"
+  },
+  {
+    "id": 19112836,
+    "name": "Пицца Верона",
+    "description": "",
+    "price": "110",
+    "currency": "UAN",
+    "created": "28-07-2019",
+    "modified": "29-07-2019",
+    "category": "food"
+  },
+  {
+    "id": 19112837,
+    "name": "Пицца Неаполетанская",
+    "description": "",
+    "price": "120",
+    "currency": "UAN",
+    "created": "30-07-2019",
+    "modified": "31-07-2019",
+    "category": "food"
+  },
+  {
+    "id": 19112838,
+    "name": "Coca-Cola",
+    "description": "",
+    "price": "10",
+    "currency": "UAN",
+    "created": "30-07-2019",
+    "modified": "31-07-2019",
+    "category": "drink"
+  },
+  {
+    "id": 19112838,
+    "name": "Fanta",
+    "description": "",
+    "price": "10",
+    "currency": "UAN",
+    "created": "30-07-2019",
+    "modified": "31-07-2019",
+    "category": "drink"
+  },
+  {
+    "id": 19112838,
+    "name": "Sprite",
+    "description": "",
+    "price": "10",
+    "currency": "UAN",
+    "created": "30-07-2019",
+    "modified": "31-07-2019",
+    "category": "drink"
+  }
+]
